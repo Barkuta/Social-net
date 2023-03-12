@@ -1,0 +1,45 @@
+.formControl input {
+  margin-right: 3px;
+  border-bottom: 2px solid #fff;
+}
+
+.formControl {
+  border-bottom: 2px solid #fff;
+}
+
+.formControl::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.formControl.error {
+  position: relative;
+
+  border-bottom: 2px solid red;
+}
+
+.formControl.error textarea {
+  border: 1px solid, red;
+}
+
+.formControl.error span {
+  color: red;
+}
+
+.text {
+  color: red;
+}
+
+.formSummaryError {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

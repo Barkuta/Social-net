@@ -1,0 +1,136 @@
+.box {
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  /* background-color: ; */
+  border-radius: 10px;
+}
+
+.boxname {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 150px 1fr 100px;
+  /* padding-bottom: 10px; */
+  background-color: #c0c0c0;
+  border-radius: 0 0 10px 10px;
+  padding-left: 5px;
+}
+
+.boxlink {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+}
+
+.descriptionBlock {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.descriptionBlock img {
+  width: 250px;
+  padding-left: 5px;
+  /* padding-bottom: 20px; */
+  padding-top: 13px;
+  padding-right: 5px;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 23px 30px 30px 30px 1fr;
+  margin-left: 10px;
+}
+
+.name {
+  border-bottom: solid #c0c0c0;
+  border-width: 1px;
+}
+
+.city {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-content: center;
+  justify-content: center;
+  border-bottom: solid #c0c0c0;
+  border-width: 1px;
+}
+
+.city h5 {
+  display: grid;
+  margin: 0 0 0 0;
+}
+
+.city p {
+  display: grid;
+  margin: 0 0 0 0;
+  font-size: 14px;
+}
+
+.age {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-content: center;
+  justify-content: center;
+}
+
+.age h5 {
+  display: grid;
+  margin: 0 0 0 0;
+}
+
+.age p {
+  display: grid;
+  margin: 0 0 0 0;
+  font-size: 14px;
+}
+
+.photoslink {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  /* background-color: aqua; */
+}
+
+.photoslink h5 {
+  display: grid;
+  margin: 0 0 0 0;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  height: 150px;
+  column-gap: 5px;
+  /* border: solid #c0c0c0; */
+}
+
+.photos img {
+  display: grid;
+  padding: 0 0 0 0;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.photos p {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #c0c0c0;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  border-radius: 10px 0 0 10px;
+}
+
+.photoblock {
+  width: 150px;
+  height: 150px;
+}

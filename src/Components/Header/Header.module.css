@@ -1,0 +1,40 @@
+.header {
+  grid-area: h;
+  background-color: #00499c;
+  display: grid;
+}
+
+.header img {
+  width: 50px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 150px 1fr 200px;
+}
+
+.box p {
+  color: white;
+}
+
+.loginBlock {
+  display: grid;
+  color: aliceblue;
+  text-decoration: none;
+  align-content: center;
+}
+
+.aBlock {
+  color: aliceblue;
+  text-decoration: none;
+  align-content: center;
+  cursor: pointer;
+}
+
+.btn {
+  border: 0;
+  width: 60px;
+  height: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
