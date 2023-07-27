@@ -109,7 +109,6 @@ const MainApp = (props) => {
   return (
     <React.StrictMode>
       <Provider store={store}>
-        {/* learn react */}
         <AppContainer />
       </Provider>
     </React.StrictMode>
