@@ -9,6 +9,11 @@
   border-radius: 12px;
 }
 
+.messageItem {
+  color: red;
+  text-align: center;
+}
+
 .dialog {
   display: grid;
   justify-items: start;

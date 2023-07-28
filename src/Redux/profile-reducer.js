@@ -1,5 +1,4 @@
 import { profileApi, usersApi } from "../API/Api";
-
 const ADD_POST = "ADD-POST";
 const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
 const SET_USER_PROFILE = "SET_USER_PROFILE";
@@ -39,7 +38,7 @@ let initialState = {
   friendsData: [
     {
       id: 1,
-      name: "Alisher",
+      name: "Profile1",
       img: "https://sun6-22.userapi.com/s/v1/ig2/QSpzLj_2EmgdbN9q2zIOlskuxNtA2fUB4OduydgsCbUsEwave1m2TigNcN63nIptnJWEcJTRa-GrBzObG2GVj1Bz.jpg?size=400x0&quality=96&crop=59,101,354,354&ava=1",
     },
     {

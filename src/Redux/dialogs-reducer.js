@@ -44,8 +44,20 @@ let initialState = {
 const dialogsReducer = (state = initialState, action) => {
   switch (action.type) {
     case NEW_MESSAGE:
+      let array = state.messages;
+
+      let lastEl = array.length - 1;
+
+      let newId = (id1 = lastEl) => {
+        let newIdNew = id1 + 1;
+        console.log(newIdNew);
+        return newIdNew;
+      };
+
+      let newIdNewId = newId();
+
       let text = {
-        id: 2,
+        id: newIdNewId,
         message: action.newMessageBody,
       };
       return {
